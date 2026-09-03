@@ -1,0 +1,8 @@
+[configuration]
+entry_symbol = "softcar_library_init"
+compatibility_minimum = "4.3"
+
+[libraries]
+windows.debug.x86_64 = "res://godot/bin/windows/softcar.dll"
+linux.debug.x86_64 = "res://godot/bin/linux/libsoftcar.so"
+macos.debug = "res://godot/bin/macos/libsoftcar.dylib"
