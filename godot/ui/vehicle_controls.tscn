@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource path="res://scripts/vehicle_controls.gd" type="Script" id="1"]
+
+[node name="VehicleControls" type="CanvasLayer"]
+script = ExtResource("1")
+
+; Controls reference:
+; Left
+; Right
+; Gas
+; Reverse
+; Handbrake
