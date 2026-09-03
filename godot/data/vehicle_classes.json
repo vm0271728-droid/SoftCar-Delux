@@ -1,0 +1,34 @@
+{
+  "vehicles": [
+    {
+      "id": "compact",
+      "class": "FWD",
+      "mass": 1250,
+      "power_hp": 130,
+      "max_speed_kmh": 210,
+      "gears": 6,
+      "grip": 0.82,
+      "drift_factor": 0.35
+    },
+    {
+      "id": "sport",
+      "class": "RWD",
+      "mass": 1450,
+      "power_hp": 450,
+      "max_speed_kmh": 320,
+      "gears": 7,
+      "grip": 0.9,
+      "drift_factor": 0.65
+    },
+    {
+      "id": "pickup",
+      "class": "RWD",
+      "mass": 2100,
+      "power_hp": 250,
+      "max_speed_kmh": 190,
+      "gears": 6,
+      "grip": 0.75,
+      "drift_factor": 0.45
+    }
+  ]
+}
