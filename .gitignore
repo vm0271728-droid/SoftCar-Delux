@@ -1,0 +1,20 @@
+.godot/
+*.translation
+
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Native extension binaries
+godot/bin/**/*.dll
+godot/bin/**/*.so
+godot/bin/**/*.dylib
+godot/bin/**/*.pdb
+!godot/bin/softcar.gdextension
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
